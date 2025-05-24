@@ -1,10 +1,12 @@
 import "./App.css";
-import UseState from "./UseState";
+import Cart from "./Project/UseState/Cart";
+import UseState from "./UseState/UseState";
 
 function App() {
   return (
     <>
-      <UseState />
+      {/* <UseState /> */}
+      <Cart />
     </>
   );
 }
